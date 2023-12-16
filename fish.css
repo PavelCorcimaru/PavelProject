@@ -51,7 +51,7 @@ li {
     margin-bottom: 10px; /* Add spacing between project headings and content */
 }
 
-img {
+.project img {
     width: 100%; /* Make the image fill the container width */
     height: auto; /* Maintain the aspect ratio */
     border-radius: 8px; /* Add rounded corners to the images */
