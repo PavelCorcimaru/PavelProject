@@ -43,6 +43,11 @@ li {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+.project h3 {
+    display: inline-block; /* Make project headings inline */
+    margin-right: 10px; /* Add some spacing between project headings and content */
+}
+
 img {
     max-width: 100%;
     height: auto;
