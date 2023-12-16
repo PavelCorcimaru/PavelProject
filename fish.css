@@ -28,6 +28,18 @@ li {
     margin-bottom: 5px;
 }
 
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #34495e;
     color: #fff;
