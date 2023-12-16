@@ -52,9 +52,9 @@ li {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Add rounded corners to the images */
 }
 
 footer {
