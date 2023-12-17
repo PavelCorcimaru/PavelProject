@@ -37,7 +37,7 @@ li {
 }
 
 #navigation {
-    background-color: #3498db; /* Darker blue background */
+    background-color: #0b406a; /* Darker blue background */
     padding: 10px; /* Add padding for spacing */
     text-align: center;
 }
@@ -58,12 +58,12 @@ li {
     color: #fff; /* White text color */
     padding: 8px 16px; /* Add padding for the clickable area */
     border-radius: 5px; /* Rounded corners for a button-like appearance */
-    background-color: #5DADE2; /* Lighter blue background */
+    background-color: #15527e; /* Darker blue background */
     transition: background-color 0.3s ease; /* Add a smooth transition on hover */
 }
 
 #navigation a:hover {
-    background-color: #2980b9; /* Darker blue background on hover */
+    background-color: #0e3b5e; /* Even darker blue background on hover */
 }
 
 .project {
