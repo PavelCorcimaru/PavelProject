@@ -1,3 +1,5 @@
+/* fish.css */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -34,9 +36,34 @@ li {
     margin-bottom: 5px;
 }
 
-#projects {
-    display: flex; /* Use flexbox to arrange child elements */
-    flex-direction: column; /* Arrange child elements vertically */
+#navigation {
+    background-color: #3498db; /* Darker blue background */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    display: inline-block;
+    margin-right: 20px; /* Add spacing between navigation items */
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    padding: 8px 16px; /* Add padding for the clickable area */
+    border-radius: 5px; /* Rounded corners for a button-like appearance */
+    background-color: #5DADE2; /* Lighter blue background */
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+#navigation a:hover {
+    background-color: #2980b9; /* Darker blue background on hover */
 }
 
 .project {
