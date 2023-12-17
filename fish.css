@@ -6,7 +6,6 @@ body {
     padding: 0;
     background-color: #121212; /* Dark background for dark mode */
     color: #fff; /* Light text color */
-    margin-bottom: 50px; /* Add margin to the bottom to accommodate the footer */
 }
 
 header {
@@ -41,6 +40,11 @@ li {
     background-color: #d9534f; /* Crimson red background for navigation bar */
     padding: 10px; /* Add padding for spacing */
     text-align: center;
+    position: fixed; /* Fixed position */
+    bottom: 0;
+    left: 0; /* Align to the left */
+    width: 100%;
+    z-index: 1000; /* Set a higher z-index to ensure it stays above other elements */
 }
 
 #navigation ul {
@@ -99,4 +103,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
