@@ -4,12 +4,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333; /* Dark text color */
+    background-color: #121212; /* Dark background for dark mode */
+    color: #fff; /* Light text color */
 }
 
 header {
-    background-color: #3498db;
+    background-color: #d9534f; /* Red background */
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -17,14 +17,14 @@ header {
 
 section {
     margin: 20px;
-    background-color: #fff; /* White background for sections */
+    background-color: #1f1f1f; /* Darker background for sections */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow effect */
 }
 
 h2 {
-    color: #3498db;
+    color: #d9534f; /* Red heading color */
 }
 
 ul {
@@ -37,7 +37,7 @@ li {
 }
 
 #navigation {
-    background-color: #0b406a; /* Darker blue background */
+    background-color: #d9534f; /* Red background for navigation bar */
     padding: 10px; /* Add padding for spacing */
     text-align: center;
 }
@@ -58,19 +58,19 @@ li {
     color: #fff; /* White text color */
     padding: 8px 16px; /* Add padding for the clickable area */
     border-radius: 5px; /* Rounded corners for a button-like appearance */
-    background-color: #15527e; /* Darker blue background */
+    background-color: #d9534f; /* Red background for links */
     transition: background-color 0.3s ease; /* Add a smooth transition on hover */
 }
 
 #navigation a:hover {
-    background-color: #0e3b5e; /* Even darker blue background on hover */
+    background-color: #ac2925; /* Darker red background on hover */
 }
 
 .project {
     flex: 0 0 80%; /* Each project takes up 80% of the width */
-    background-color: #fff;
+    background-color: #1f1f1f; /* Darker background for projects */
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
     margin-bottom: 20px; /* Add some spacing between projects */
 }
 
@@ -86,7 +86,7 @@ li {
 }
 
 footer {
-    background-color: #3498db;
+    background-color: #d9534f; /* Red background for footer */
     color: #fff;
     text-align: center;
     padding: 10px;
